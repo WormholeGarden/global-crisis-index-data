@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Global Crisis Index - Real-time Crisis Data",
+  "description": "Live crisis intelligence data tracking earthquakes, conflicts, food security, disease outbreaks, and displacement across 60+ countries. Updated every 5 minutes from 40+ APIs.",
+  "url": "https://globalcrisisindex.com",
+  "sameAs": "https://globalcrisisindex.com",
+  "creator": {
+    "@type": "Organization",
+    "name": "GCIS Fusion",
+    "url": "https://globalcrisisindex.com"
+  },
+  "distribution": {
+    "@type": "DataDownload",
+    "contentUrl": "https://github.com/WormholeGarden/global-crisis-index-data/raw/main/global_crisis_data.csv",
+    "encodingFormat": "text/csv"
+  },
+  "citation": "https://globalcrisisindex.com",
+  "isAccessibleForFree": true,
+  "keywords": "crisis, humanitarian, earthquake, conflict, food security, disease outbreak, displacement"
+}
